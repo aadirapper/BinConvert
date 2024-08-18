@@ -1,0 +1,8 @@
+def bini(num):
+    num = num
+    num = bin(num)
+    print(num)
+def bins(word):
+    str(word)
+    result = " ".join(format(ord(w),"b")for w in word)
+    print(result)
